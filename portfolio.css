@@ -1,0 +1,150 @@
+.parent_part{
+    display: flex;
+    justify-content:space-around;
+    background-image: url('./images/lg_bg.jpg');
+  
+   
+}
+.basic_info{
+    width: 50%;
+    padding-left: 3%;
+}
+
+.welcome_title{
+    font-size: 40px;
+}
+.peter_title{
+    font-size: 35px;
+    color: rgb(223, 83, 37);
+}
+.title_build{
+    font-size: 20px;
+}
+.description_details{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.image{
+    margin-top: 30px;
+}
+.btn_btn{
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(250, 244, 244);
+    background-image: linear-gradient(orange, tomato);
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+.btn_btn:hover{
+    color: rgb(133, 8, 8);
+}
+.btn_btn:active{
+    color: rgb(8, 182, 8);
+}
+.image_section{
+    width: 50%;
+    
+}
+.image_add{
+    width: 70%;
+}
+
+/* start for middle part  */
+
+.parent_part_middle{
+    display: flex;
+    margin-top: 15px;
+    background-image: url('./images/images2.jpg');
+    background-repeat: no-repeat;    
+}
+/* for image part  */
+.image_section_middle{
+    width: 50%;
+    padding-left: 3%;
+}
+.image_add_middle{
+    width: 70%;
+}
+/* image part end  */
+
+.basic_info_middle{
+    width: 40%;
+}
+.dream_title{
+    font-size: 35px;
+    font-weight: 700;
+}
+.sort_title{
+    font-size: 20px;
+    color: rgb(223, 83, 37);
+}
+.sort_description{
+    font-size: 18px;
+}
+.download_button{
+    font-size: 14px;
+    font-weight: 700;
+    color: whitesmoke;
+    width: 150px;
+    border: 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+
+/* hover and select part 
+ */
+ .download_button:hover{
+    color: #999;
+    background-color: aqua;
+ }
+ .download_button :active{
+    color: indigo;
+ }
+ /* hover and select part  end
+ */
+
+ /* start experience  */
+ .title_pat{
+    padding-left: 3%;
+ }
+ .experience_title{
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(31, 30, 30);
+ }
+ .main_term{
+    display: flex;
+    padding-left: 4%;
+ }
+ .stack_info{
+    width: 30%;
+    padding: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 50px gray;
+    border-left: 5px solid palevioletred;
+ }
+ /* .details{
+    border: 2px solid;
+    
+ } */
+ .title{
+    font-size: 30px;
+ }
+ .description_details{
+    width: 400px;
+ }
+ /* end experience  */
+
+ /* start footer  */
+ .footer_part{
+    padding: 40px;
+    text-align: center;
+
+ }
+
+
+
